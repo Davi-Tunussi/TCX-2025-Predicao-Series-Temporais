@@ -82,7 +82,7 @@ pip install -r requirements.txt
 Execute o arquivo principal para treinar os modelos e gerar previsões:
 python main.py
 
-5. Resultados
+3. Resultados
 
 Os resultados serão salvos no diretório results/:
 previsoes.csv: Contém os valores reais e as previsões dos modelos.
