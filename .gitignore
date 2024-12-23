@@ -1,0 +1,57 @@
+# Arquivos e diretórios do sistema
+*.DS_Store
+Thumbs.db
+
+# Logs e arquivos de debug
+*.log
+*.out
+*.err
+
+# Arquivos de Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Ambientes virtuais
+.env/
+.venv/
+env/
+venv/
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos de pacotes e builds
+*.egg
+*.egg-info/
+dist/
+build/
+*.wheel
+
+# Dados de entrada e saída
+data/
+*.csv
+*.json
+*.xml
+
+# Modelos grandes
+*.h5
+*.keras
+
+# Git LFS
+*.lfs
+
+# Outros arquivos gerados
+*.bak
+*.tmp
+*.swp
+*.~lock.*
+
+# Exclusão de resultados
+results/
+outputs/
+
+# Arquivos de cache
+__pycache__/
+.cache/
