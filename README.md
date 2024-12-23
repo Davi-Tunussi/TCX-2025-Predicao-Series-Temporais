@@ -73,14 +73,16 @@ Os resultados detalhados das previsões estão salvos na pasta results/
 ### Como Executar o Projeto
 
 1. Requisitos
+   
 Certifique-se de que possui as dependências listadas no arquivo requirements.txt. Instale-as com o comando:
 pip install -r requirements.txt
 
 2. Execução
+   
 Execute o arquivo principal para treinar os modelos e gerar previsões:
 python main.py
 
-3. Resultados
+5. Resultados
 
 Os resultados serão salvos no diretório results/:
 previsoes.csv: Contém os valores reais e as previsões dos modelos.
