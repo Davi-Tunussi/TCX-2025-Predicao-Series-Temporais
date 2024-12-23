@@ -75,3 +75,7 @@ O projeto demonstrou que o modelo LSTM é o mais adequado para este conjunto de 
 Este trabalho destaca a importância de selecionar o modelo certo para séries temporais, dependendo das características dos dados e do objetivo da previsão.
 
 ### Projeto desenvolvido por Davi Tunussi como parte do desafio TCX 2025.
+```bash
+   git add README.md
+   git commit -m "Corrige a formatação da estrutura do projeto no README"
+   git push origin main
