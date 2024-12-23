@@ -41,27 +41,32 @@ Janela deslizante: 10 dias
 - Épocas: 20
 - Função de perda: Mean Squared Error (MSE)
 
-### Resultados e Avaliação
+## Resultados
 
-Métricas de Desempenho
+Os modelos foram avaliados usando RMSE (Root Mean Squared Error) e MAE (Mean Absolute Error). 
+Os resultados para o conjunto de teste foram:
 
-Os modelos foram avaliados usando RMSE (Root Mean Squared Error) e MAE (Mean Absolute Error). Os resultados para o conjunto de teste foram:
-
-MODELO    |  RMSE   |   MAE
-ARIMA     |  0.30   |   0.25
-PROPHET   |  0.28   |   0.20
-LSTM      |  0.07   |   0.05
+| MODELO  | RMSE | MAE |
+|---------|------|-----|
+| ARIMA   | 0.30 | 0.25 |
+| PROPHET | 0.28 | 0.20 |
+| LSTM    | 0.07 | 0.05 |
 
 O LSTM apresentou o melhor desempenho, com RMSE e MAE significativamente menores, destacando sua capacidade de capturar padrões complexos nos dados.
 
-### Validação Cruzada
+---
 
-Foi realizada uma validação cruzada com 5 divisões (folds) para os modelos ARIMA e Prophet. Os resultados médios foram:
-MODELO    |  RMSE (médio)   |   MAE (médio) 
-ARIMA     |      0.51       |     0.43
-PROPHET   |      0.57       |     0.48
+## Validação Cruzada
 
-### Resultados Numéricos e G´rafico Comparativo
+Foi realizada uma validação cruzada com 5 divisões (folds) para os modelos ARIMA e Prophet. 
+Os resultados médios foram:
+
+| MODELO  | RMSE (médio) | MAE (médio) |
+|---------|--------------|-------------|
+| ARIMA   | 0.51         | 0.43        |
+| PROPHET | 0.57         | 0.48        |
+
+### Resultados Numéricos e Gráfico Comparativo
 
 Os resultados detalhados das previsões estão salvos na pasta results/
 
