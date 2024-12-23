@@ -6,11 +6,24 @@ Este projeto tem como objetivo desenvolver um sistema preditivo que estima o con
 
 Os dados utilizados foram obtidos do UCI Machine Learning Repository - Energy Consumption Dataset. Eles abrangem o período de 16/12/2006 a 26/11/2010, com medições realizadas em intervalos de 1 minuto.
 
-### Estrutura do Projeto
+## Estrutura do Projeto
 
 O projeto está organizado nos seguintes arquivos e diretórios:
 
-Projeto_3_TCX_MachineLearning/ ├── data/ │ └── household_power_consumption.txt # Arquivo de dados ├── results/ │ ├── previsoes.csv # Resultados das previsões │ ├── comparacao_previsoes.png # Gráfico comparativo ├── data_loader.py # Carregamento e pré-processamento dos dados ├── models.py # Implementação dos modelos ARIMA, Prophet e LSTM ├── evaluation.py # Avaliação de métricas e validação cruzada ├── main.py # Execução principal do projeto ├── requirements.txt # Dependências do projeto └── README.md # Documentação do projeto
+```plaintext
+Projeto_3_TCX_MachineLearning/
+├── data/                               # Diretório de dados
+│   └── household_power_consumption.txt # Arquivo de dados
+├── results/                            # Diretório de resultados
+│   ├── previsoes.csv                   # Resultados das previsões
+│   └── comparacao_previsoes.png        # Gráfico comparativo
+├── data_loader.py                      # Carregamento e pré-processamento dos dados
+├── models.py                           # Implementação dos modelos ARIMA, Prophet e LSTM
+├── evaluation.py                       # Avaliação de métricas e validação cruzada
+├── main.py                             # Execução principal do projeto
+├── requirements.txt                    # Dependências do projeto
+└── README.md                           # Documentação do projeto
+```
 
 ### Modelos Utilizados
 
