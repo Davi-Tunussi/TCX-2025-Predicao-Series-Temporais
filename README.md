@@ -10,7 +10,7 @@ Os dados utilizados foram obtidos do UCI Machine Learning Repository - Energy Co
 
 O projeto está organizado nos seguintes arquivos e diretórios:
 
-Projeto_3_TCX_MachineLearning/ |-- data/ | |-- household_power_consumption.txt # Arquivo de dados |-- results/ | |-- previsoes.csv # Resultados das previsões | |-- comparacao_previsoes.png # Gráfico comparativo |-- data_loader.py # Carregamento e pré-processamento dos dados |-- models.py # Implementação dos modelos ARIMA, Prophet e LSTM |-- evaluation.py # Avaliação de métricas e validação cruzada |-- main.py # Execução principal do projeto |-- requirements.txt # Dependências do projeto |-- README.md # Documentação do projeto
+Projeto_3_TCX_MachineLearning/ ├── data/ │ └── household_power_consumption.txt # Arquivo de dados ├── results/ │ ├── previsoes.csv # Resultados das previsões │ ├── comparacao_previsoes.png # Gráfico comparativo ├── data_loader.py # Carregamento e pré-processamento dos dados ├── models.py # Implementação dos modelos ARIMA, Prophet e LSTM ├── evaluation.py # Avaliação de métricas e validação cruzada ├── main.py # Execução principal do projeto ├── requirements.txt # Dependências do projeto └── README.md # Documentação do projeto
 
 ### Modelos Utilizados
 
