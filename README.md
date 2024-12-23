@@ -85,6 +85,7 @@ python main.py
 3. Resultados
 
 Os resultados serão salvos no diretório results/:
+
 previsoes.csv: Contém os valores reais e as previsões dos modelos.
 comparacao_previsoes.png: Gráfico comparativo das previsões.
 
